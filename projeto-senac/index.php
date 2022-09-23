@@ -138,7 +138,7 @@ $resultado = mysqli_query($con2, $sql);
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Descrição</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/Harry-potter-e-o-prisioneiro-de-azkaban.pdf" download="Harry-potter-e-o-prisioneiro-de-azkaban.pdf" type="aplication/pdf">Download</a></button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -154,7 +154,7 @@ $resultado = mysqli_query($con2, $sql);
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Descrição</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/o-pequeno-principe.pdf" download="o-pequeno-principe.pdf" type="aplication/pdf">Download</a></button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -170,7 +170,7 @@ $resultado = mysqli_query($con2, $sql);
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary">Descrição</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/quem-pensa-enriquece.pdf" download="quem-pensa-enriquece.pdf" type="aplication/pdf">Download</a></button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -180,14 +180,14 @@ $resultado = mysqli_query($con2, $sql);
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src="fotos/img6.jpeg" alt="AZKABAN" class="Livro" width="400" height="400">
+          <img src="fotos/livro-7-passos.jpg" alt="AZKABAN" class="Livro" width="400" height="400">
           <div class="card-body">
-              <p class="card-text"><b>Projetos de Tecnologia de Informação</b> </p>
+              <p class="card-text"><b>7 passos para aumentar sua auto estima</b> </p>
               <p class="card-text"><i>disponível na internet, apresenta técnicas para orientar...</i></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary">Descrição</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/7-passos.pdf"download="7-passos.pdf" type="aplication/pdf">Download</a></button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -203,7 +203,7 @@ $resultado = mysqli_query($con2, $sql);
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary">Descrição</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/como-chegamos-ate-aqui.pdf" download="como-chegamos-ate-aqui.pdf" type="aplication/pdf">Download</a></button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -212,14 +212,14 @@ $resultado = mysqli_query($con2, $sql);
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="fotos/img8.jpeg" alt="AZKABAN" class="Livro" width="400" height="422">
+          <img src="fotos/evolucao-desing.jpg" alt="AZKABAN" class="Livro" width="400" height="422">
               <div class="card-body">
-              <p class="card-text"><b>O Grande Livro da Gastronomia</b></p>
+              <p class="card-text"><b>A evolução do desinf gráfico 2</b></p>
               <p class="card-text"><i>Conta uma História da Gastronomia.</i></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary">Descrição</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/evolucao-desing.pdf" download="evolucao-desing.pdf" type="aplication/pdf">Download</a></button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -229,14 +229,14 @@ $resultado = mysqli_query($con2, $sql);
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src="fotos/img9.jpeg" alt="AZKABAN" class="Livro" width="400" height="379">
+          <img src="fotos/manual-criatividade.jpg" alt="AZKABAN" class="Livro" width="400" height="379">
             <div class="card-body">
-              <p class="card-text"><b>Festival de Gastronomia Senac 2020</b></p>
+              <p class="card-text"><b>Manual de criatividade empresárial</b></p>
               <p class="card-text"><i>Repertorio de sabores e coletania de receitas gastronomicas</i></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary">Descrição</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/manual-criatividade.pdf" download="manual-criatividade.pdf" type="aplication/pdf">Download</a></button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -245,14 +245,14 @@ $resultado = mysqli_query($con2, $sql);
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="fotos/img10.jpeg" alt="AZKABAN" class="Livro" width="400" height="400">
+          <img src="fotos/seguranca-da-informacao.png" alt="AZKABAN" class="Livro" width="400" height="400">
             <div class="card-body">
-              <p class="card-text"><b>O Livro da Música Classica</b></p>
-              <p class="card-text"><i>Faz uma viagem pela história da música clássica</i></p>
+              <p class="card-text"><b>Segurança da informação</b></p>
+              <p class="card-text"><i>Livro bom para estudantes de cybersegurança.</i></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary">Descrição</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/segurança-da-informacao.pdf" download="seguranca-da-informacao.pdf" type="aplication/pdf">Download</a></button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -268,7 +268,7 @@ $resultado = mysqli_query($con2, $sql);
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-secondary">Descrição</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Download</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/os-setes-marinos.pdf" download="os-setes-marinos.pdf" type="aplication/pdf">Download</a></button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
