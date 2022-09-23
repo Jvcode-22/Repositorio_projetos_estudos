@@ -27,13 +27,21 @@
                 <input type="password" name="senha2" require>
                 <label >Repetir senha</label>
             </div class="a">
-         <a href="javascript:validar()">
+        <!-- <a href="javascript:validar()">
                  <span></span>
                  <span></span>
                  <span></span>
                  <span></span>
    <input type="submit" name="registrar">
+             </a> -->
+             <a onclick="this.parentNode.submit();">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+                 <span></span>
+                 Cadastrar
              </a>
+
              <a href="login.php" >
                  <span></span>  
                  <span></span>

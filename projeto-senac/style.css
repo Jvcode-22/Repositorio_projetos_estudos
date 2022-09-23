@@ -158,4 +158,13 @@ font-size: 12px;
 .login-box  a span button {
     background-color: #e7e7e7; color: black;
 }
-    
+.jao{
+    background-image: url(fotos/mapamundi-png-5.png);
+    background-repeat: no-repeat;
+    background-size: 30%;    
+    background-position: 35em 5em;
+
+  }
+  #livro{
+      size: 10cm;
+  }
