@@ -1,5 +1,14 @@
 
 <?php 
+
+if(empty($_POST['login'])    || empty($_POST['senha'])){
+    echo "<script> alert('preencha isso direito') 
+    window.location = 'login.php';
+    </script>";
+    die();
+}
+
+
 $login = $_POST["login"];
 $senha = $_POST["senha"];
 $senhacript = md5($senha);

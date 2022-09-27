@@ -29,19 +29,19 @@
         <h2>Login</h2>
         <form action="autenticar.php" method="POST">
             <div class="user-box">
-                <input type="text" name="login" require="">
+                <input type="text" name="login" required>
                 <label >Username</label>
             </div>
             <div class="user-box">
-                <input type="password" name="senha" require="">
+                <input type="password" name="senha" required>
                 <label >password</label>
             </div>
-             <a onclick="this.parentNode.submit();">
+             <a onclick="this.parentNode.submit();" >
                  <span></span>
                  <span></span>
                  <span></span>
                  <span></span>
-                 Submit
+                 entrar
              </a>
              <a href="registro.php">
                  <span></span>

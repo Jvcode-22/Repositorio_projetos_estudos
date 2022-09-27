@@ -168,3 +168,6 @@ font-size: 12px;
   #livro{
       size: 10cm;
   }
+  .tam{
+      min-height: 10em;
+  }
