@@ -147,7 +147,7 @@ $resultado = mysqli_query($con2, $sql);
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-            <img src="fotos/R.png" alt="AZKABAN" width="100%" height="100%">
+            <img src="fotos/R.png" alt="AZKABAN">
             <div class="card-body tam">
               <p class="card-text"><b>Harry Potter e o Prisioneiro de Azkaban</b></p>
               <div class="d-flex justify-content-between align-items-center">
@@ -155,14 +155,13 @@ $resultado = mysqli_query($con2, $sql);
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#AZKABAM"> Descrição</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/Harry-potter-e-o-prisioneiro-de-azkaban.pdf" download="Harry-potter-e-o-prisioneiro-de-azkaban.pdf" type="aplication/pdf">Download</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col" id="livro">
           <div class="card shadow-sm">
-            <img src="fotos/img2.jpeg" alt="PequenoPrincipe" class="Livro" width="100%" height="100%">
+            <img src="fotos/img2.jpeg" alt="PequenoPrincipe" class="Livro">
             <div class="card-body tam">
               <p class="card-text"><b>O Pequeno Principe</b></p>
               <div class="d-flex justify-content-between align-items-center">
@@ -170,14 +169,13 @@ $resultado = mysqli_query($con2, $sql);
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Principe"> Descrição</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/o-pequeno-principe.pdf" download="o-pequeno-principe.pdf" type="aplication/pdf">Download</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="fotos/img4.jpeg" alt="QuemPensaEmEnriquecer" class="Livro" width="100%" height="100%">
+          <img src="fotos/QPE.jpg" alt="QuemPensaEmEnriquecer" class="Livro">
             <div class="card-body tam">
               <p class="card-text"><b>Quem Pensa em Enriquecer</b></p>
               <div class="d-flex justify-content-between align-items-center">
@@ -185,7 +183,6 @@ $resultado = mysqli_query($con2, $sql);
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Enriquecer"> Descrição</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/quem-pensa-enriquece.pdf" download="quem-pensa-enriquece.pdf" type="aplication/pdf">Download</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -193,7 +190,7 @@ $resultado = mysqli_query($con2, $sql);
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src="fotos/livro-7-passos.jpg" alt="SetePassos" class="Livro" width="100%" height="100%">
+          <img src="fotos/livro-7-passos.jpg" alt="SetePassos" class="Livro">
           <div class="card-body tam">
               <p class="card-text"><b>7 passos para aumentar sua autoestima</b> </p>
               <div class="d-flex justify-content-between align-items-center">
@@ -201,14 +198,13 @@ $resultado = mysqli_query($con2, $sql);
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Autoestima"> Descrição</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/7-passos.pdf"download="7-passos.pdf" type="aplication/pdf">Download</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="fotos/img7.jpeg" alt="ComoChegamosAteAqui" class="Livro" width="100%" height="100%">
+            <img src="fotos/img7.jpeg" alt="ComoChegamosAteAqui" class="Livro">
             <div class="card-body tam">
               <p class="card-text"><b>Como Chegamos Até Aqui</b></p>
               <div class="d-flex justify-content-between align-items-center">
@@ -216,23 +212,20 @@ $resultado = mysqli_query($con2, $sql);
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Chegamos"> Descrição</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/como-chegamos-ate-aqui.pdf" download="como-chegamos-ate-aqui.pdf" type="aplication/pdf">Download</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="fotos/evolucao-desing.jpg" alt="AEvolucao" class="Livro" width="100%" height="100%">
+          <img src="fotos/evolucao-desing.jpg" alt="AEvolucao" class="Livro">
               <div class="card-body tam">
               <p class="card-text"><b>A evolução do desinf gráfico 2</b></p>
-              <p class="card-text"><i>Conta uma História da Gastronomia.</i></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Gráfico"> Descrição</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Grafico"> Descrição</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/evolucao-desing.pdf" download="evolucao-desing.pdf" type="aplication/pdf">Download</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -242,16 +235,14 @@ $resultado = mysqli_query($con2, $sql);
 
         <div class="col">
           <div class="card shadow-sm">
-          <img src="fotos/manual-criatividade.jpg" alt="Manualdcriatividade" class="Livro" width="100%" height="100%">
+          <img src="fotos/manual-criatividade.jpg" alt="Manualdcriatividade" class="Livro">
             <div class="card-body tam">
               <p class="card-text"><b>Manual de criatividade empresárial</b></p>
-              <p class="card-text"><i>Repertorio de sabores e coletania de receitas gastronomicas</i></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Manual"> Descrição</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/manual-criatividade.pdf" download="manual-criatividade.pdf" type="aplication/pdf">Download</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -264,13 +255,11 @@ $resultado = mysqli_query($con2, $sql);
           <img src="fotos/seguranca-da-informacao.png" alt="SegurancadaInformacao" class="Livro" width="100%" height="100%">
             <div class="card-body tam">
               <p class="card-text"><b>Segurança da informação</b></p>
-              <p class="card-text"><i>Livro bom para estudantes de cybersegurança.</i></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Informação"> Descrição</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Informacao"> Descrição</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/segurança-da-informacao.pdf" download="seguranca-da-informacao.pdf" type="aplication/pdf">Download</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -289,7 +278,6 @@ $resultado = mysqli_query($con2, $sql);
                 </button>
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="livros/os-setes-marinos.pdf" download="os-setes-marinos.pdf" type="aplication/pdf">Download</a></button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -300,6 +288,7 @@ $resultado = mysqli_query($con2, $sql);
     </div>
   </div>
 </main>
+
 <footer class="text-muted p-5">
     <div class="container">
       <div class="row">
@@ -324,12 +313,7 @@ $resultado = mysqli_query($con2, $sql);
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
  </body>
 </html>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
 
-<!-- Modal -->
 <div class="modal fade" id="SeteM" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -356,7 +340,7 @@ $resultado = mysqli_query($con2, $sql);
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="fotos/img1.jpeg" alt="SeteM" class="Tlivro">
+        <img src="fotos/img1.jpeg" alt="AZKABAM" class="Tlivro">
           <p><b>É o início do terceiro ano na escola de bruxaria Hogwarts. Harry, Ron e Hermione têm muito o que aprender. Mas uma ameaça ronda a escola e ela se chama Sirius Black. Após doze anos encarcerado na prisão de Azkaban, ele consegue escapar e volta para vingar seu mestre, Lord Voldemort.</b></p>
         
       </div>
@@ -374,7 +358,7 @@ $resultado = mysqli_query($con2, $sql);
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="fotos/img2.jpeg" alt="SeteM" class="Tlivro">
+        <img src="fotos/img2.jpeg" alt="Principe" class="Tlivro">
           <p><b>é uma obra literária do escritor francês Antoine de Saint-Exupéry, que conta a história da amizade entre um homem frustrado por ninguém compreender os seus desenhos, com um principezinho que habita um asteroide no espaço.</b></p>
         
       </div>
@@ -392,7 +376,7 @@ $resultado = mysqli_query($con2, $sql);
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="fotos/img3.jpeg" alt="SeteM" class="Tlivro">
+        <img src="fotos/QPE.jpg" alt="Enriquecer" class="Tlivro">
           <p><b>lançado em 1937, ele revela o segredo do sucesso, baseado em entrevistas realizadas e estudo de hábitos de mais de 16 mil pessoas, entre elas os 500 homens mais ricos do mundo em sua época. Neste livro é revelado o segredo para enriquecer.</b></p>
         
       </div>
@@ -410,8 +394,8 @@ $resultado = mysqli_query($con2, $sql);
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="fotos/img11.jpg" alt="SeteM" class="Tlivro">
-          <p><b>Taylor Jenkins Reid Com todo o esplendor que só a Hollywood do século passado pode oferecer, esta é uma narrativa inesquecível sobre os sacrifícios que fazemos por amor, o perigo dos segredos e o preço da fama.</b></p>
+        <img src="fotos/livro-7-passos.jpg" alt="SetePassos" class="Tlivro">
+          <p><b>É um livro didatico e de auto ajuda para melhorar a autoestima e ter uma qualidade de vida melhor.</b></p>
         
       </div>
       <div class="modal-footer">
@@ -420,16 +404,16 @@ $resultado = mysqli_query($con2, $sql);
     </div>
   </div>
 </div>
-<div class="modal fade" id="SeteM" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="Chegamos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Os Sete Maridos De Evelyn Hugo</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Como Chegamos Até Aqui</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="fotos/img11.jpg" alt="SeteM" class="Tlivro">
-          <p><b>Taylor Jenkins Reid Com todo o esplendor que só a Hollywood do século passado pode oferecer, esta é uma narrativa inesquecível sobre os sacrifícios que fazemos por amor, o perigo dos segredos e o preço da fama.</b></p>
+        <img src="fotos/img7.jpeg" alt="SeteM" class="Tlivro">
+          <p><b>Uma incrível jornada pela história da inovação ao longo dos séculos por um dos mais influentes pensadores da tecnologia.</b></p>
         
       </div>
       <div class="modal-footer">
@@ -438,7 +422,7 @@ $resultado = mysqli_query($con2, $sql);
     </div>
   </div>
 </div>
-<div class="modal fade" id="SeteM" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="Grafico" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -446,8 +430,8 @@ $resultado = mysqli_query($con2, $sql);
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="fotos/img11.jpg" alt="SeteM" class="Tlivro">
-          <p><b>Taylor Jenkins Reid Com todo o esplendor que só a Hollywood do século passado pode oferecer, esta é uma narrativa inesquecível sobre os sacrifícios que fazemos por amor, o perigo dos segredos e o preço da fama.</b></p>
+        <img src="fotos/evolucao-desing.jpg" alt="Evolução" class="Tlivro">
+          <p><b> A segunda edição do Ebook “A Evolução do Design Gráfico”, assim como o primeiro volume pretende fortalecer o Design, colaborando para a maior aventura exploratória da humanidade que somente começou: o conhecimento do cérebro como fonte de riquezas inesgotáveis.</b></p>
         
       </div>
       <div class="modal-footer">
@@ -456,16 +440,16 @@ $resultado = mysqli_query($con2, $sql);
     </div>
   </div>
 </div>
-<div class="modal fade" id="SeteM" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="Manual" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Os Sete Maridos De Evelyn Hugo</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Manual De Criatividade Empresárial</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="fotos/img11.jpg" alt="SeteM" class="Tlivro">
-          <p><b>Taylor Jenkins Reid Com todo o esplendor que só a Hollywood do século passado pode oferecer, esta é uma narrativa inesquecível sobre os sacrifícios que fazemos por amor, o perigo dos segredos e o preço da fama.</b></p>
+        <img src="fotos/manual-criatividade.jpg" alt="MEmpresarial" class="Tlivro">
+          <p><b>este manual tem um duplo objectivo: por um lado, disponibilizar aos agentes públicos um instrumento para o fomento da criatividade empresarial dirigida à criação de empresas criativas ou ao aumento da competitividade das existentes; por outro lado, para as empresas ou para os potenciais empreendedores, introduzir o conceito de criatividade nos negócios e apresentar as principais técnicas para a sua aplicação prática nos processos de inovação.</b></p>
         
       </div>
       <div class="modal-footer">
@@ -474,16 +458,16 @@ $resultado = mysqli_query($con2, $sql);
     </div>
   </div>
 </div>
-<div class="modal fade" id="SeteM" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="Informacao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Os Sete Maridos De Evelyn Hugo</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Segurança Da Informação</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="fotos/img11.jpg" alt="SeteM" class="Tlivro">
-          <p><b>Taylor Jenkins Reid Com todo o esplendor que só a Hollywood do século passado pode oferecer, esta é uma narrativa inesquecível sobre os sacrifícios que fazemos por amor, o perigo dos segredos e o preço da fama.</b></p>
+        <img src="fotos/seguranca-da-informacao.png" alt="Seguranca" class="Tlivro">
+          <p><b>Neste Livro, o autor, ensina, de forma não técnica, como se tornar um usuário aculturado no âmbito da Segurança da Informação, como ter atitudes mais seguras, de modo a prevenir e remediar problemas de segurança com suas informações, com seu computador e com sua família.</b></p>
         
       </div>
       <div class="modal-footer">
