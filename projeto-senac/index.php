@@ -1,7 +1,4 @@
 <?php
-
-include "logado.php";
-
 include "conexao.php";
 
 //ESTILO PROCEDURAL
@@ -116,7 +113,17 @@ $resultado = mysqli_query($con2, $sql);
         <img src="fotos/abra-o-livro.png" alt="favicon" width="30px" class="ms-2">
         <a href="#Contato" style="margin-left: 300%;"><button class="btn btn-outline-secondary">Contatos</button></a>
         <a href="#Contato" style="margin-left: 10%;"><button class="btn btn-outline-secondary">Sobre</button></a>
-        <a href="sair.php" style="margin-left: 10%;"><button class="btn btn-outline-secondary">Sair</button></a>
+        <?php
+
+          session_start();
+          if(isset($_SESSION["usuario_logado"])){
+            echo "
+            <a href='sair.php' style='margin-left: 10%;'><button class='btn btn-outline-secondary'>sair</button></a>";}
+        else{
+            echo "
+            <a href='login.php' style='margin-left: 10%;'><button class='btn btn-outline-secondary'>fazer login</button></a>";
+        }
+        ?>
       </div>
     </div>
 </header>

@@ -50,6 +50,13 @@
                  <span></span>
                  Cadastrar
              </a>
+             <a href="index.php">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+                 <span></span>
+                 ir para página
+             </a>
          
     </div>
     </form>
