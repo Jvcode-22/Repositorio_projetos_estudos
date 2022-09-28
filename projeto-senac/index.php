@@ -111,17 +111,21 @@ $resultado = mysqli_query($con2, $sql);
       <div class="navbar-brand d-flex align-items-center">
         <strong id="Home">OurBooks</strong>
         <img src="fotos/abra-o-livro.png" alt="favicon" width="30px" class="ms-2">
-        <a href="#Contato" style="margin-left: 300%;"><button class="btn btn-outline-secondary">Contatos</button></a>
-        <a href="#Contato" style="margin-left: 10%;"><button class="btn btn-outline-secondary">Sobre</button></a>
         <?php
 
           session_start();
           if(isset($_SESSION["usuario_logado"])){
             echo "
-            <a href='sair.php' style='margin-left: 10%;'><button class='btn btn-outline-secondary'>sair</button></a>";}
+            <a href='#Contato' style='margin-left: 300%;'><button class='btn btn-outline-secondary'>Contatos</button></a>
+            <a href='#Contato' style='margin-left: 8%;'><button class='btn btn-outline-secondary'>Sobre</button></a>
+            <a href='sair.php' style='margin-left: 9%;'><button class='btn btn-outline-secondary'>sair</button></a>    
+            ";}
         else{
             echo "
-            <a href='login.php' style='margin-left: 10%;'><button class='btn btn-outline-secondary'>fazer login</button></a>";
+            <a href='#Contato' style='margin-left: 260%;'><button class='btn btn-outline-secondary'>Contatos</button></a>
+            <a href='#Contato' style='margin-left: 5%;'><button class='btn btn-outline-secondary'>Sobre</button></a>
+            <a href='login.php' style='margin-left: 4%;'><button class='btn btn-outline-secondary'>fazer login</button></a>
+            ";
         }
         ?>
       </div>
